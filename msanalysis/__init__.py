@@ -1,1 +1,2 @@
-from .msanalysis import main
+from . import main
+
