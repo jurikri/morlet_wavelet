@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 setup(
     name='msanalysis',
     version='0.1',
-    packages=find_packages(),
+    packages=['morlet_wavelet'],
     install_requires=[
         'numpy',
         'scipy',
