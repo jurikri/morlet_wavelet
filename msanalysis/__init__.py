@@ -1,1 +1,1 @@
-from .morlet_wavelet import main
+from .msanalysis import main
