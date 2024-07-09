@@ -228,4 +228,4 @@ def msmain(EEGdata_ch_x_time=None, SR=None, finum=50):
     template, template_phase \
         = ms_morlet_wavelet(finum=finum, raw_data=EEGdata_ch_x_time, SR=SR, cpus=6)
 
-    return template[0], template_phase[0]
+    return template, template_phase
